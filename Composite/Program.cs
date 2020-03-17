@@ -34,8 +34,8 @@ namespace Composite
             Component lastLeaf = new Leaf(2);
             root.AddChild(lastLeaf);
 
-            Console.WriteLine($"Root Sum: {root.Sum()}");
-            Console.WriteLine($"c1 Sum: {c1.Sum()}");
+            Console.WriteLine($"root sum: {root.Sum()}");
+            Console.WriteLine($"c1 sum: {c1.Sum()}");
 
             Console.WriteLine($"root: {CheckEven(root)}"); //false;
             Console.WriteLine($"c2: {CheckEven(c2)}"); //true;
