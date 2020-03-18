@@ -48,7 +48,7 @@ namespace Composite
             int sum = this.GetNum();
             foreach(Component c in childs)
             {
-                sum += c.GetNum();
+                sum += c.Sum();
             }
             return sum;
         }
